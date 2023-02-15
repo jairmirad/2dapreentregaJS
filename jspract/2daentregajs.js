@@ -23,8 +23,8 @@ let carrito = [];
 let seguir = prompt(`Hola ${nombreUser} desea comprar alguna prenda? (Escriba Si o No)`)
 
 while(seguir != "si" && seguir != "no"){
-    alert("Por favor ingresa si o no")
-    seguir = prompt("Hola desea compra algo si o no")
+    alert("Ingresa si o no")
+    seguir = prompt("Desea comprar alguna prenda? (Escriba si o no)")
 }
 
 if(seguir == "si"){
